@@ -1,0 +1,5 @@
+<% require 'date' %>
+<% todays_date = DateTime.now %>
+
+<h1>Today</h1>
+<p><%="The date is #{todays_date.strftime('%A')}, #{todays_date.strftime('%B')} #{todays_date.day}, #{todays_date.year}." %></p>
